@@ -1,11 +1,11 @@
 import time
 import math
 
-t0 = time.time()
 
 size = 100000000
 A = list(range(size))
 B = list(range(size))
+t0 = time.time()
 for i in range(size):
     B[i] = math.tan(A[i])
 
