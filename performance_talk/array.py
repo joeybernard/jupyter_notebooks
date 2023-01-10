@@ -3,7 +3,7 @@ import math
 
 t0 = time.time()
 
-size = 10000000
+size = 100000000
 A = list(range(size))
 B = list(range(size))
 for i in range(size):
